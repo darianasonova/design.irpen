@@ -1,0 +1,17 @@
+table {
+    border: 3px dashed rgb(117, 89, 89);
+    border-collapse: collapse;
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+td {
+    border: 3px dashed rgb(117, 89, 89);
+}
+th {
+    border: 3px dashed rgb(117, 89, 89);
+}
+tr:hover {
+    background-color: rgba(243, 174, 147, 0.418);
+}

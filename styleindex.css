@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Gothic;
+    src: url(Deutsch_Gothic.ttf);
+ }
+
+nav {
+    display: flex;
+}
+
+nav a {
+    flex:1;
+    border: 4px rgb(117, 89, 89) solid ;
+    margin: 4px;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    color: black;
+}
+nav a:hover {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.205) ;
+}
+body {
+    background-image: linear-gradient(rgb(255, 247, 233), white) ;
+}
+#photo {
+    background-image: url(homep.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-size: cover;
+    display: flex;
+}
+h2 {
+    background-color:rgb(255, 247, 233) ;
+    width: fit-content;
+    margin: auto ;
+    font-size: xx-large;
+    font-family: Gothic;
+    color: rgb(117, 89, 89);
+}
+form {
+    margin: auto;
+    text-align: center;
+    border: rgb(117, 89, 89) 3px solid;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 5px 5px 5px 5px ;
+    box-shadow:8px 8px 4px rgba(0, 0, 0, 0.157) ;
+    
+}
+
+#contacts {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+label {
+    font-size: x-large;
+}
+input[type=text], input[type=email]{
+    width: 400px;
+    height: 20px;
+}
+input[type=submit]{
+    width: 150px;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px rgb(117, 89, 89) solid;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(117, 89, 89);
+    color: rgb(255, 247, 233);
+    border: none;
+}
+footer a {
+    margin: 25px;
+}
+footer {
+    text-align: right;
+    height: 50px;  
+}
+.content {
+    min-height: calc(100vh - 80px);
+}
