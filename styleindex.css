@@ -88,10 +88,3 @@ footer {
 .content {
     min-height: calc(100vh - 80px);
 }
-aside { 
-  position: relative;
-  float:centre;
-  width:170px; 
-  top: 0px;
-  bottom: 0px;
-}
