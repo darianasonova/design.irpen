@@ -90,7 +90,7 @@ footer {
 }
 aside { 
   position: relative;
-  float:left;
+  float:centre;
   width:170px; 
   top: 0px;
   bottom: 0px;
